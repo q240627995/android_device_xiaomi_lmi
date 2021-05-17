@@ -35,3 +35,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Vendor
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.qti.va_aosp.support=1
+
+# Block update
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.block_updater=true
